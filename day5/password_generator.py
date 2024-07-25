@@ -43,3 +43,4 @@ for number in range(0, nr_numbers):
     
 print(a + b + c)
 
+#this is the easy version I will come back to it
