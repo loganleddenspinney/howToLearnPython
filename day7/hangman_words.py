@@ -1,0 +1,1 @@
+hangman_word = ["sphynx", "quiz", "kazoo", "yuck", "emu" ]
