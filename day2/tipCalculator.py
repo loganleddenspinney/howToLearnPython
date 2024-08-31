@@ -12,7 +12,7 @@ bill = float(input("What was the total bill?\n"))
 tip = int(input("What percentage tip would you like to give?\n"))
 split = int(input("How many people to split the bill?\n"))
 price = (bill + (bill * (tip / 100))) / split
-price = round(price,2)
+#price = round(price,2)
 price = "{:.2f}".format(price)
 print(f"Each person must pay: ${price}")
 

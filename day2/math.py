@@ -11,7 +11,7 @@ BMI = (weight) / (height ** 2)
 BMI = round(BMI, 3)
 print(BMI)
 
-print(round(3.556,1))
+print(round(3.556,2))
 
 score = 0
 gpa = 4.0

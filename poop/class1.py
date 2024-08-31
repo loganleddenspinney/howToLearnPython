@@ -12,7 +12,8 @@ class Solution:
             lst.append(a)
         print(lst)
         return(lst)
-        
+
+
 
 
 # the following lines of code are how to get the input and output
