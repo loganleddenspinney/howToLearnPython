@@ -7,7 +7,7 @@ states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Conne
 #states_of_america[1] = "Pencilvania"
 #then if you print the list Pennsylvania will have its spelling changed to Pencilvania.
 
-#to add something to the list you can do: 
+#to add something to the end of the list you can do: 
 
 #states_of_america.append("Logansstatebitch")
 
@@ -23,6 +23,7 @@ states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Conne
 #NESTED LISTS
 
 vegetables = ["spinach", "kale", "celery"]
+print(len(vegetables))
 
 dirty_dozen = [fruits, vegetables]
 

@@ -5,13 +5,14 @@ class Solution:
         
           
     def runningSum(self, nums):
-        a = 0
+        x = 0
         lst = []
-        for i in nums:
-            a = i + a
-            lst.append(a)
+        for number in nums:
+            x = number + x
+            lst.append(x)
         print(lst)
         return(lst)
+
 
 
 
@@ -19,7 +20,10 @@ class Solution:
 # the following lines of code are how to get the input and output
 nums = [1,3,4,5,6]
 answer = Solution(nums)
-answer.runningSum(nums)        
+answer.runningSum(nums)
+#output is 1 + 0 = [1] x remains = 1
+#output is 3 + 1 = [1,4] x remains = 4
+
 
 # this problem is leetcode 1480 and this is how it is solved on vscode 
 # however leetcode already has the init and does not need that it only needs the function 
